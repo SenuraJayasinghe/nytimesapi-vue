@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    @apply antialiased text-slate-700 bg-slate-50;
+   
+  }
+
+#app {
+    @apply flex flex-col min-h-screen overflow-x-hidden;
+  }
